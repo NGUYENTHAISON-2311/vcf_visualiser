@@ -1,0 +1,4 @@
+Chrom	Pos	Ref	Alt	Type	QUAL	Filter	Gene	Location	VCF_DP	VCF_AF	BAM_Cov	BAM_AF	BAM_Ref	BAM_Alt
+chrMini	20	G	A	SNV	80.0	PASS	geneA,cdsA	coding	180	0.950	N/A	N/A	N/A	N/A
+chrMini	85	C	T	SNV	65.0	PASS	geneB,cdsB	coding	150	0.700	N/A	N/A	N/A	N/A
+chrMini	110	G	T	SNV	45.0	PASS	geneB,cdsB	coding	95	0.250	N/A	N/A	N/A	N/A

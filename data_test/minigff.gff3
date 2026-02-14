@@ -1,0 +1,6 @@
+##gff-version 3
+chrMini	.	gene	1	60	.	+	.	ID=geneA;Name=geneA
+chrMini	.	CDS	1	60	.	+	0	ID=cdsA;Parent=geneA
+
+chrMini	.	gene	70	130	.	-	.	ID=geneB;Name=geneB
+chrMini	.	CDS	70	130	.	-	0	ID=cdsB;Parent=geneB

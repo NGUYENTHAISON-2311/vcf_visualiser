@@ -1,0 +1,4 @@
+track name="T2" description="Variants colored by position" visibility=2 itemRgb="On" useScore=1
+chrMini	19	20	Var:G>A | Type:SNV | Gene:geneA,cdsA | Loc:coding | QUAL:70.0 | VCF_AF:0.85 | Pos:chrMini:20	700	+	19	20	255,0,0
+chrMini	84	85	Var:C>T | Type:SNV | Gene:geneB,cdsB | Loc:coding | QUAL:60.0 | VCF_AF:0.60 | Pos:chrMini:85	600	-	84	85	255,0,0
+chrMini	99	100	Var:A>G | Type:SNV | Gene:geneB,cdsB | Loc:coding | QUAL:50.0 | VCF_AF:0.40 | Pos:chrMini:100	500	-	99	100	255,0,0

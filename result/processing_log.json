@@ -1,0 +1,146 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2026-02-14T13:20:28.208252",
+  "command_line": "src/VCFvisualiser.py -i data_test -o result",
+  "parameters": {
+    "input_dir": "data_test",
+    "output_dir": "result",
+    "min_quality": "0",
+    "min_coverage": "0",
+    "color_mode": "position",
+    "reference": "unspecified"
+  },
+  "input_files": {
+    "vcf_T0": {
+      "path": "/mnt/d/vcf_visualiser/data_test/T0.vcf",
+      "name": "T0.vcf",
+      "size_bytes": 275,
+      "checksum_md5": "26895c1735e6366ee10a757277fb434e",
+      "timestamp": "2026-02-14T13:20:17.175027"
+    },
+    "vcf_T1": {
+      "path": "/mnt/d/vcf_visualiser/data_test/T1.vcf",
+      "name": "T1.vcf",
+      "size_bytes": 316,
+      "checksum_md5": "37c3c824e3d7201f1e0f27ccf61f85cc",
+      "timestamp": "2026-02-14T13:20:19.025961"
+    },
+    "vcf_T2": {
+      "path": "/mnt/d/vcf_visualiser/data_test/T2.vcf",
+      "name": "T2.vcf",
+      "size_bytes": 317,
+      "checksum_md5": "f7db7622f4c7aa223ad3b144e7df69ed",
+      "timestamp": "2026-02-14T13:17:31.703319"
+    },
+    "vcf_T3": {
+      "path": "/mnt/d/vcf_visualiser/data_test/T3.vcf",
+      "name": "T3.vcf",
+      "size_bytes": 316,
+      "checksum_md5": "34cc93c3d972a2eb5b8a1dda6e7090dd",
+      "timestamp": "2026-02-14T13:17:30.030301"
+    },
+    "gff": {
+      "path": "/mnt/d/vcf_visualiser/data_test/minigff.gff3",
+      "name": "minigff.gff3",
+      "size_bytes": 211,
+      "checksum_md5": "52951965494c4e3db4e69712386e7f91",
+      "timestamp": "2026-02-14T13:20:20.692427"
+    }
+  },
+  "processing_steps": [
+    {
+      "step": "Loading genes from minigff.gff3",
+      "timestamp": "2026-02-14T13:20:28.353286"
+    },
+    {
+      "step": "Processing variants from T0.vcf",
+      "timestamp": "2026-02-14T13:20:28.358367"
+    },
+    {
+      "step": "Loading genes from minigff.gff3",
+      "timestamp": "2026-02-14T13:20:28.402905"
+    },
+    {
+      "step": "Processing variants from T1.vcf",
+      "timestamp": "2026-02-14T13:20:28.410258"
+    },
+    {
+      "step": "Loading genes from minigff.gff3",
+      "timestamp": "2026-02-14T13:20:28.446982"
+    },
+    {
+      "step": "Processing variants from T2.vcf",
+      "timestamp": "2026-02-14T13:20:28.455286"
+    },
+    {
+      "step": "Loading genes from minigff.gff3",
+      "timestamp": "2026-02-14T13:20:28.491304"
+    },
+    {
+      "step": "Processing variants from T3.vcf",
+      "timestamp": "2026-02-14T13:20:28.498444"
+    }
+  ],
+  "statistics": {
+    "T0_stats": {
+      "total_variants": 2,
+      "passed_filters": 2,
+      "failed_quality": 0,
+      "failed_coverage": 0,
+      "by_type": {
+        "SNV": 2
+      },
+      "by_location": {
+        "coding": 2
+      },
+      "by_contig": {
+        "chrMini": 2
+      }
+    },
+    "T1_stats": {
+      "total_variants": 3,
+      "passed_filters": 3,
+      "failed_quality": 0,
+      "failed_coverage": 0,
+      "by_type": {
+        "SNV": 3
+      },
+      "by_location": {
+        "coding": 3
+      },
+      "by_contig": {
+        "chrMini": 3
+      }
+    },
+    "T2_stats": {
+      "total_variants": 3,
+      "passed_filters": 3,
+      "failed_quality": 0,
+      "failed_coverage": 0,
+      "by_type": {
+        "SNV": 3
+      },
+      "by_location": {
+        "coding": 3
+      },
+      "by_contig": {
+        "chrMini": 3
+      }
+    },
+    "T3_stats": {
+      "total_variants": 3,
+      "passed_filters": 3,
+      "failed_quality": 0,
+      "failed_coverage": 0,
+      "by_type": {
+        "SNV": 3
+      },
+      "by_location": {
+        "coding": 3
+      },
+      "by_contig": {
+        "chrMini": 3
+      }
+    }
+  }
+}
