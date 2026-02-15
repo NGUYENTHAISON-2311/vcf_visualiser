@@ -84,14 +84,14 @@ python vcf_visualiser2.py \
 
 **Option 1: Direct Download**
 ```bash
-wget https://raw.githubusercontent.com/your-repo/vcf_visualiser2.py
+wget https://raw.githubusercontent.com/NGUYENTHAISON-2311/vcf_visualiser/main/vcf_visualiser2.py
 chmod +x vcf_visualiser2.py
 ```
 
 **Option 2: Git Clone**
 ```bash
-git clone https://github.com/your-repo/vcf-visualizer.git
-cd vcf-visualizer
+git clone https://github.com/NGUYENTHAISON-2311/vcf_visualiser.git
+cd vcf_visualiser
 ```
 
 ### Optional: Install samtools
@@ -1166,5 +1166,6 @@ Contributions welcome! Please:
 4. Submit a pull request
 
 ---
+
 
 **Made with 🧬 for the genomics community**
