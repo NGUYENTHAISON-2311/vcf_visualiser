@@ -1,0 +1,20 @@
+##gff-version 3
+##sequence-region NC_000913 1 100000
+NC_000913	RefSeq	gene	1000	6000	.	+	.	ID=gene_lacZ;Name=lacZ;product=beta-galactosidase
+NC_000913	RefSeq	CDS	1200	5800	.	+	0	Parent=gene_lacZ
+NC_000913	RefSeq	gene	10000	15000	.	+	.	ID=gene_araC;Name=araC;product=arabinose operon regulatory protein
+NC_000913	RefSeq	CDS	10200	14800	.	+	0	Parent=gene_araC
+NC_000913	RefSeq	gene	20000	25000	.	-	.	ID=gene_rpoB;Name=rpoB;product=RNA polymerase subunit beta
+NC_000913	RefSeq	CDS	20200	24800	.	-	0	Parent=gene_rpoB
+NC_000913	RefSeq	gene	30000	35000	.	+	.	ID=gene_gyrA;Name=gyrA;product=DNA gyrase subunit A
+NC_000913	RefSeq	CDS	30200	34800	.	+	0	Parent=gene_gyrA
+NC_000913	RefSeq	gene	40000	45000	.	-	.	ID=gene_recA;Name=recA;product=recombinase A
+NC_000913	RefSeq	CDS	40200	44800	.	-	0	Parent=gene_recA
+NC_000913	RefSeq	gene	50000	55000	.	+	.	ID=gene_dnaK;Name=dnaK;product=molecular chaperone DnaK
+NC_000913	RefSeq	CDS	50200	54800	.	+	0	Parent=gene_dnaK
+NC_000913	RefSeq	gene	60000	65000	.	+	.	ID=gene_groEL;Name=groEL;product=chaperonin GroEL
+NC_000913	RefSeq	CDS	60200	64800	.	+	0	Parent=gene_groEL
+NC_000913	RefSeq	gene	70000	75000	.	-	.	ID=gene_lon;Name=lon;product=ATP-dependent protease
+NC_000913	RefSeq	CDS	70200	74800	.	-	0	Parent=gene_lon
+NC_000913	RefSeq	gene	80000	85000	.	+	.	ID=gene_clpB;Name=clpB;product=chaperone protein ClpB
+NC_000913	RefSeq	CDS	80200	84800	.	+	0	Parent=gene_clpB

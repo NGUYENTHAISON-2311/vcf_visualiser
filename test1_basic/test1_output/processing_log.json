@@ -1,0 +1,42 @@
+{
+  "version": "2.1.0",
+  "timestamp": "2026-02-15T17:08:27.793006",
+  "command": "/home/claude/vcf_visualizer_v2.1.py -i ecoli_variants.vcf -g ecoli_genome.gff -o test1_output",
+  "parameters": {
+    "mode": "cli",
+    "min_quality": "0",
+    "min_coverage": "0",
+    "color_mode": "position",
+    "window_size": "500"
+  },
+  "input_files": {
+    "gff": {
+      "path": "/home/claude/test_datasets/test1_basic/ecoli_genome.gff",
+      "size": 1398,
+      "md5": "973f4d8ba8fc16e6f30c6c496e970010"
+    },
+    "vcf_ecoli_variants": {
+      "path": "/home/claude/test_datasets/test1_basic/ecoli_variants.vcf",
+      "size": 2333,
+      "md5": "1c0179c2ba2190d6688eff58e1c0ddb3"
+    }
+  },
+  "steps": [
+    {
+      "step": "File detection",
+      "time": "2026-02-15T17:08:27.793141"
+    },
+    {
+      "step": "Variant processing",
+      "time": "2026-02-15T17:08:27.794138"
+    },
+    {
+      "step": "Combined summary",
+      "time": "2026-02-15T17:08:27.799277"
+    },
+    {
+      "step": "Heatmap generation",
+      "time": "2026-02-15T17:08:27.799467"
+    }
+  ]
+}

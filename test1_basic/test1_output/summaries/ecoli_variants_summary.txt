@@ -1,0 +1,18 @@
+======================================================================
+SAMPLE: ecoli_variants
+======================================================================
+
+FILTERING:
+  Min QUAL: 0
+  Min Coverage: 0
+
+VARIANTS:
+  Total: 50
+  Passed: 50 (100.0%)
+
+BY TYPE:
+  SNV: 50
+
+BY LOCATION:
+  coding: 41
+  gene: 9

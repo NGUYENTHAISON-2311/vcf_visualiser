@@ -1,0 +1,24 @@
+{
+  "gff_file": "path/to/annotations.gff",
+  "output": "path/to/output",
+  "samples": [
+    {
+      "name": "sample1",
+      "vcf": "path/to/sample1.vcf",
+      "bam": "path/to/sample1_reads.bam"
+    },
+    {
+      "name": "sample2",
+      "vcf": "path/to/sample2.vcf",
+      "bam": "path/to/sample2_alignment.bam"
+    },
+    {
+      "name": "sample3_no_bam",
+      "vcf": "path/to/sample3.vcf"
+    }
+  ],
+  "min_quality": 20,
+  "min_coverage": 30,
+  "color_mode": "position",
+  "window_size": 500
+}
